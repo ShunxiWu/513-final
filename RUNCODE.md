@@ -12,6 +12,15 @@ This notebook focuses on visualizing the data and performing preprocessing tasks
 
 3. **Segmentation**: Segments the data into smaller time intervals and saves each segment as a separate CSV file for further analysis.
 
+4. **Instructions**:
+  1. Make sure you have Jupyter Notebook installed.
+  2. Download the dataset CSV file named `axi.csv` and save it in the same directory as the notebook.（axi.csv is only one of the files, please replace to other files when doing processing）
+  3. Open the notebook `513.ipynb` using Jupyter Notebook.
+  4. Run each cell in the notebook sequentially.
+  5. Ensure that all necessary libraries are installed (`pandas`, `matplotlib`, `datetime`).
+
+
+
 ## label.py - Data Labeling
 
 This Python script is responsible for labeling the data by calculating various statistical features for each file. The labeling process involves the following steps:
@@ -23,6 +32,14 @@ This Python script is responsible for labeling the data by calculating various s
 3. **Data Aggregation**: Aggregates all calculated features into a single DataFrame.
 
 4. **Output Generation**: Saves the aggregated features to a CSV file for further analysis or model training.
+
+5. **Instructions**：
+  1. Ensure you have Python installed on your system.
+  2. Download the Python script `label.py`.
+  3. Modify the `folder_path` variable in the script to point to the directory containing your CSV files.
+  7. Ensure that all necessary libraries are installed (`pandas`, `numpy`, `scipy`).
+
+
 
 ## ML.ipynb - Machine Learning Training
 
@@ -37,6 +54,15 @@ This notebook focuses on training machine learning models using the preprocessed
 4. **Model Training and Evaluation**: Trains each model on the training data and evaluates its performance on the test data. Additionally, it prints the average accuracy obtained through cross-validation for each model.
 
 5. **Visualization (Optional)**: Visualizes the correlation matrix of the data using a heatmap.
+
+6. **Instructions**：
+  1. Make sure you have Jupyter Notebook installed.
+  2. Download the dataset CSV file and save it in the same directory as the notebook.
+  3. Open the notebook `ML.ipynb` using Jupyter Notebook.
+  4. Run each cell in the notebook sequentially.
+  5. Replace `'data.csv'` in the code with the actual path to your CSV file containing the data.
+  6. Ensure that all necessary libraries are installed (`numpy`, `pandas`, `seaborn`, `matplotlib`, `scikit-learn`).
+
 
 ## Instructions for Running the Code
 
