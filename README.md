@@ -2,6 +2,9 @@
 
 This project demonstrates how to collect data from sensors and input it to show the implementation of different machine learning models for activity classification based on sensor data collected during postoperative rehabilitation exercises for knee replacement surgery.
 
+### Contribution
+
+Utilizing data from three IMUs enables comprehensive knee joint motion representation, while machine learning models trained on this data identify various motions, offering personalized rehabilitation plans.
 
 ## Requirements
 
@@ -25,15 +28,8 @@ This project demonstrates how to collect data from sensors and input it to show 
 3. Connect Arduino to your computer and upload the code to the Arduino board.
 4. Open the serial monitor to view the inference results.
 
-# Postoperative Rehabilitation Exercise Recognition for Knee Replacement Surgery
 
-## Introduction
 
-This project focuses on recognizing and detecting postoperative rehabilitation exercises for knee replacement surgery using data from three IMUs (MPU6050) attached to the thigh, calf, and foot. The goal is to enable personalized rehabilitation plans by accurately identifying various motions performed during the recovery period.
-
-### Contribution
-
-Utilizing data from three IMUs enables comprehensive knee joint motion representation, while machine learning models trained on this data identify various motions, offering personalized rehabilitation plans.
 
 ## Data Collection
 
